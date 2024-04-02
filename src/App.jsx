@@ -1,20 +1,16 @@
-import React, { useEffect } from 'react';
-import './App.css';
-
-const time = () => {
-    let date = Date.now();
-    let hours = date.getHours();
-    let minutes = date.getMinutes();
-    let seconds = date.getSeconds();
-
-    return hours + ':' + minutes + ':' + seconds;
-};
+import React from 'react';
+import s from './App.module.sass';
+import Clock from './components/Clock/Clock';
 
 const App = () => {
-    let clock = useEffect(time, []);
     return (
-        <div>
-            <div style={{ fontSize: '60px' }}>{clock}</div>
+        <div className={s.wrapper}>
+            <Clock />
+            <div className={s.focus}>
+                What Is Your Focus For Today
+                <br />
+                <span contentEditable='true'>[Enter Focus]</span>
+            </div>
         </div>
     );
 };
