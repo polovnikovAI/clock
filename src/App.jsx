@@ -6,11 +6,6 @@ const App = () => {
     return (
         <div className={s.wrapper}>
             <Clock />
-            <div className={s.focus}>
-                What Is Your Focus For Today
-                <br />
-                <span contentEditable='true'>[Enter Focus]</span>
-            </div>
         </div>
     );
 };
