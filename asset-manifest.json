@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/clock/static/css/main.d951a811.css",
+    "main.js": "/clock/static/js/main.dfa5fcf2.js",
+    "static/media/morning2k.jpg": "/clock/static/media/morning2k.d09b17a221ad3d7fce0b.jpg",
+    "static/media/evening2k.jpg": "/clock/static/media/evening2k.f2179c6f7da8c2f8b997.jpg",
+    "static/media/night2k.jpg": "/clock/static/media/night2k.5887f473b0f35569eb2e.jpg",
+    "static/media/afternoon2k.jpg": "/clock/static/media/afternoon2k.cc5b8a1ee265587e8ae8.jpg",
+    "index.html": "/clock/index.html",
+    "main.d951a811.css.map": "/clock/static/css/main.d951a811.css.map",
+    "main.dfa5fcf2.js.map": "/clock/static/js/main.dfa5fcf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d951a811.css",
+    "static/js/main.dfa5fcf2.js"
+  ]
+}
